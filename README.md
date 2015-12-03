@@ -3,4 +3,4 @@
 
 -- Uses wow.js for animations http://mynameismatthieu.com/WOW/docs.html
 
--- Set up using Jade, SASS, Gulp, Browsersync
+-- Set up using Jade, SASS
