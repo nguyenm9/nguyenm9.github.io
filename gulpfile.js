@@ -1,5 +1,5 @@
 var gulp        = require('gulp');
-var master     = require('gulp-gh-pages');
+var ghPages     = require('gulp-gh-pages');
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
@@ -88,7 +88,7 @@ gulp.task('watch', function () {
  */
 gulp.task("deploy", ["jekyll-build"], function () {
     return gulp.src("./_site/**/*")
-        .pipe(master());
+        .pipe(ghPages());
 });
 
 /**
