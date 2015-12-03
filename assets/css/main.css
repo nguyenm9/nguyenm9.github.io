@@ -8,7 +8,7 @@
 @import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
 @import url(https://fonts.googleapis.com/css?family=Exo:900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600);
-@import url(https://fonts.googleapis.com/css?family=Lobster+Two:700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:700);
 @import url(https://fonts.googleapis.com/css?family=Signika);
 html {
   font-family: sans-serif;
@@ -4734,7 +4734,7 @@ body {
 .main h1 {
   font-size: 70px;
   color: #3C2525;
-  font-family: 'Lobster Two', cursive; }
+  font-family: 'Playfair Display', sans-serif; }
 
 .main h4 {
   position: relative;
@@ -4888,7 +4888,7 @@ i {
 
 .resume {
   background: white;
-  height: 100vh;
+  height: 50vh;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4899,19 +4899,22 @@ i {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  position: relative; }
 
-.line {
-  width: 30%;
-  border-bottom: 1px solid black;
+.resume-container {
+  margin-top: 100px;
   text-align: center; }
+
+.resume_icon {
+  margin-top: 50px;
+    margin-top-transition: 0.5s ease-in-out; }
+
+.resume_icon:hover {
+  color: #F3B3C0; }
 
 .contact {
   background: aliceblue;
-  height: 100vh;
+  height: 50vh;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4925,10 +4928,11 @@ i {
   position: relative; }
 
 .contact-container {
-  margin-top: 300px;
+  margin-top: 100px;
   text-align: center; }
 
 .mail_icon {
+  margin-top: 50px;
   -webkit-transition: 0.5s ease-in-out;
           transition: 0.5s ease-in-out; }
 

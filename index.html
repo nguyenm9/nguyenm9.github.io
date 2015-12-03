@@ -1,48 +1,20 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Michelle Nguyen's Portfolio</title>
-        <meta name="viewport" content="width=device-width">
+---
+layout: default
+title: Michelle Nguyen's Portfolio
+---
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/assets/css/main.css">
 
-        <!-- Mobile Specific Metas
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<div id="homepage">
 
-        <!-- Favicon
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-        <!-- Javascript -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script language="Javascript" type="text/javascript" src="/assets/js/pushy.min.js"></script>
-        <script language="Javascript" type="text/javascript" src="/assets/js/wow.min.js"></script>
-        <script language="Javascript" type="text/javascript">
-            new WOW().init();
-        </script>
-
-    </head>
-    <body>
-        <div class="nav-container">
-            <div id="homepage">
-
-	<div class="nav pushy pushy-left"><ul><li><a href="#hero">Home</a></li><li><a href="#bio">About Me			</a></li><li><a href="#about">I Am...			</a></li><li><a href="#resume">Resume/Projects			</a></li><li><a href="#contact">Contact			</a></li></ul></div><div class="site-overlay"></div><div id="nav_container"><div class="menu-btn"><i class="fa fa-bars fa-lg"></i></div></div>
-	<header id="hero" class="panel background"><div class="main"><h1 class="wow fadeInDown">Michelle Nguyen</h1><h4 data-wow-delay="0.5s" class="wow fadeInDown">Always craving to learn and explore</h4></div></header><div class="down"><a href="#bio" class="arrow-link"><i data-wow-delay="1.5s" class="wow fadeInDown fa fa-caret-down fa-3x"></i></a></div>
-	<section id="bio" class="bio-section u-full-width panel"><div class="container"><div class="row"><div class="bio-container twelve columns wow zoomIn"><h3 class="bio-header">Hello!</h3><i class="fa fa-code fa-3x icon-bio"></i><p class="bio-writeup">I am a 22 y/o developer from San Jose, CA. I have recently graduated from the University of California, Davis and am looking for new work opportunities to challenge my skills. Visually-appealing web apps and designs bring joy to my life.</p><i class="fa fa-heart-o fa-3x icon-bio"></i><p class="bio-writeup">When I am not developing my programming skills, I enjoy cooking and baking to my heart's content (yum!) . I also love learning new languages and am currently attempting Japanese and Korean.</p></div></div></div></section>
-	<section id="about" class="about u-full-width panel"><div class="container"><div class="row"><div class="twelve columns about-container"><h3 class="aboutme wow fadeInUp data-wow-duration='1.5s'">I am...</h3><div class="div bio wow fadeInUp"><div class="row"><div class="box_one six columns"><p>Observant</p><p><i class="fa fa-eye fa-4x"></i></p></div><div class="box_two six columns"><p>Detail Oriented</p><p><i class="fa fa-search fa-4x"></i></p></div></div><div class="row"><div class="box_three six columns"><p>Open-minded</p><p><i class="fa fa-lightbulb-o fa-4x"></i></p></div><div class="box_four six columns"><p>A Team Player</p><p><i class="fa fa-group fa-4x"></i></p></div></div></div></div></div></div></section>
-	<section id="resume" class="resume u-full-width panel"><div class="container"><div class="row"><div class="resume-container twelve columns"><h3 class="separator">Resume</h3><div class="line"></div></div><div class="project-container twelve columns"><h3 class="separator">Projects</h3></div></div></div></section>
-	<section id="contact" class="contact u-full-width panel"><div class="container"><div class="row"><div class="contact-container twelve columns"><h3 class="separator">Inquiries?</h3><a href="mailto:micnguyen@ucdavis.edu"><i class="mail_icon wow swing data-wow-duration='4s' fa fa-envelope-o fa-5x"></i></a></div></div></div></section>
-	<section id="footer" class="footer u-full-width"><div class="container"><h1 class="footer-header">Keep in touch.</h1><div class="row"><div class="footer-left five columns"><p>&copy; October 2015 Michelle Nguyen</p></div><div class="footer-right seven columns"><ul class="social-icons"><li><a href="http://linkedin.com/in/nguyenm9"><i class="fa fa-linkedin-square fa-5x"></i></a></li><li><a href="http://facebook.com/michelle.nguyen.3192"><i class="fa fa-facebook-square fa-5x"></i></a></li><li><a href="http://github.com/nguyenm9"><i class="fa fa-github-alt fa-5x"></i></a></li></ul></div></div></div></section>
+	{% include navi.html %}
+	{% include hero.html %}
+	{% include bio.html %}
+	{% include about.html %}
+	{% include resume.html %}
+	{% include contact.html %}
+	{% include footer.html %}
 
 </div>
 
 
-
-
-        </div>
-    </body>
-</html>
 
