@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 jekyll-gulp-sass-browser-sync
 =============================
 
