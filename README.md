@@ -1,4 +1,3 @@
-=======
 # Portfolio
 -- Uses pushy.js for navigation http://www.christopheryee.ca/pushy/
 
