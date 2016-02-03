@@ -4695,6 +4695,12 @@ there.
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
+/* Mobile first queries */
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */
 /* Container */
 #nav_container {
   background-color: transparent;
@@ -4735,6 +4741,9 @@ body {
   font-size: 70px;
   color: #3C2525;
   font-family: 'Playfair Display', sans-serif; }
+  @media (max-width: 480px) {
+    .main h1 {
+      font-size: 30px; } }
 
 .main h4 {
   position: relative;
@@ -4743,6 +4752,9 @@ body {
   font-family: 'Signika', sans-serif;
   letter-spacing: 2px;
   color: #000; }
+  @media (max-width: 480px) {
+    .main h4 {
+      font-size: 15px; } }
 
 .arrow-link {
   color: #000;
@@ -4760,6 +4772,10 @@ body {
   position: relative;
   margin-top: -80px;
   margin-left: 50%; }
+  @media (max-width: 480px) {
+    .down {
+      position: relative;
+      margin-left: 45%; } }
 
 html, body {
   -webkit-tap-highlight-color: transparent; }
@@ -4805,11 +4821,17 @@ ul {
           align-items: center;
   margin-top: 0px;
   position: relative; }
+  @media (max-width: 480px) {
+    .bio-section {
+      height: 100%; } }
 
 .bio-container {
   margin-top: 170px;
   position: relative;
   text-align: center; }
+  @media (max-width: 480px) {
+    .bio-container {
+      margin-top: 65px; } }
 
 .bio-header {
   color: #000;
@@ -4818,6 +4840,9 @@ ul {
 .bio-writeup {
   font-size: 20px;
   padding-bottom: 30px; }
+  @media (max-width: 480px) {
+    .bio-writeup {
+      font-size: 20px; } }
 
 .icon-bio {
   padding-bottom: 20px; }
@@ -4843,12 +4868,18 @@ ul {
   margin-top: 80px;
   text-align: center;
   height: 750px; }
+  @media (max-width: 480px) {
+    .about-container {
+      margin-top: 50px; } }
 
 .aboutme {
   font-size: 50px;
   color: #808080;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase; }
+  @media (max-width: 480px) {
+    .aboutme {
+      font-size: 40px; } }
 
 .bio {
   line-height: 50px;
@@ -4856,6 +4887,12 @@ ul {
   color: #000;
   margin-top: 40px;
   text-position: center; }
+  @media (max-width: 480px) {
+    .bio {
+      font-size: 14px;
+      line-height: 14px;
+      margin-left: -20px;
+      margin-right: -20px; } }
 
 .box_one {
   margin-right: 0px;
@@ -4864,16 +4901,28 @@ ul {
   border-bottom: 1px solid lightgray;
   border-right: 1px solid lightgray;
   border-collapse: collapse; }
+  @media (max-width: 480px) {
+    .box_one {
+      width: 50%;
+      height: 215px; } }
 
 .box_two {
   padding: 70px;
   margin-left: 0px;
   margin-bottom: 0px; }
+  @media (max-width: 480px) {
+    .box_two {
+      width: 50%;
+      height: 215px; } }
 
 .box_three {
   padding: 70px;
   margin-right: 0px;
   margin-top: 0px; }
+  @media (max-width: 480px) {
+    .box_three {
+      width: 50%;
+      height: 215px; } }
 
 .box_four {
   padding: 70px;
@@ -4882,6 +4931,10 @@ ul {
   border-top: 1px solid lightgray;
   border-left: 1px solid lightgray;
   border-collapse: collapse; }
+  @media (max-width: 480px) {
+    .box_four {
+      width: 50%;
+      height: 215px; } }
 
 i {
   color: maroon; }
@@ -4904,6 +4957,9 @@ i {
 .resume-container {
   margin-top: 100px;
   text-align: center; }
+  @media (max-width: 480px) {
+    .resume-container {
+      margin-top: 50px; } }
 
 .resume_icon {
   margin-top: 50px;
@@ -4930,6 +4986,9 @@ i {
 .contact-container {
   margin-top: 100px;
   text-align: center; }
+  @media (max-width: 480px) {
+    .contact-container {
+      margin-top: 50px; } }
 
 .mail_icon {
   margin-top: 50px;
@@ -4944,6 +5003,9 @@ i {
   background-color: #d3d3d3;
   color: black;
   padding: 30px 0 0 0; }
+  @media (max-width: 480px) {
+    .footer {
+      height: 60vh; } }
 
 .footer-header {
   padding-bottom: 40px; }
@@ -4957,16 +5019,13 @@ i {
 .social-icons li {
   display: inline;
   margin-right: 40px; }
+  @media (max-width: 480px) {
+    .social-icons li {
+      margin-right: 0px;
+      padding-right: 6px; } }
 
 .social-icons a {
   color: black; }
 
 .social-icons a:hover {
   color: honeydew; }
-
-/* Mobile first queries */
-/* Larger than mobile */
-/* Larger than phablet */
-/* Larger than tablet */
-/* Larger than desktop */
-/* Larger than Desktop HD */

@@ -22,6 +22,9 @@
   color: #3C2525
   font-family: 'Playfair Display', sans-serif
 
+  @include mobile
+    font-size: 30px
+
 .main h4
   position: relative
   padding-top: 20px
@@ -29,6 +32,9 @@
   font-family: 'Signika', sans-serif
   letter-spacing: 2px
   color: #000
+
+  @include mobile
+    font-size: 15px
 
 .arrow-link
   color: #000
@@ -45,4 +51,10 @@
   position: relative
   margin-top: -80px
   margin-left: 50%
+
+  @include mobile
+    position: relative
+    margin-left: 45%
+
+
 

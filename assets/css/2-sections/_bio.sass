@@ -8,10 +8,17 @@
   margin-top: 0px
   position: relative
 
+  @include mobile
+    height: 100%
+
+
 .bio-container
   margin-top: 170px
   position: relative
   text-align: center
+
+  @include mobile
+    margin-top: 65px
 
 .bio-header 
   color: #000
@@ -20,6 +27,9 @@
 .bio-writeup
   font-size: 20px
   padding-bottom: 30px
+
+  @include mobile
+    font-size: 20px
 
 .icon-bio
   padding-bottom: 20px 
