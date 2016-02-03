@@ -1,3 +1,25 @@
+$mobile: 480px
+$phablet: 550px
+$tablet: 750px
+$desktop: 1000px
+$deskhd: 1200px
+
+@mixin mobile
+  @media (max-width: #{$mobile})
+    @content
+
+@mixin phablet
+  @media (min-width: #{$phablet})
+    @content
+
+@mixin tablet
+  @media (min-width: #{$tablet})
+    @content
+
+@mixin desktop
+  @media (min-width: #{$desktop})
+    @content
+
 .about
   position: relative
   background: #FFF2F2
@@ -7,12 +29,17 @@
   flex-direction: column
   position: relative
 
+
 .about-container
+
+ @include mobile
+    margin-top: 50px
 
 	position: relative
 	margin-top: 80px
 	text-align: center
 	height: 750px
+
 
 .aboutme
 	font-size: 50px
@@ -20,12 +47,21 @@
 	font-family: 'Raleway', sans-serif
 	text-transform: uppercase
 
+	@include mobile
+		font-size: 40px
+
 .bio
 	line-height: 50px
 	font-size: 20px
 	color: #000
 	margin-top: 40px
 	text-position: center
+
+	@include mobile
+		font-size: 14px
+		line-height: 14px
+		margin-left: -20px
+		margin-right: -20px
 
 .box_one
 	margin-right: 0px
@@ -35,15 +71,27 @@
 	border-right: 1px solid lightgray
 	border-collapse: collapse
 
+	@include mobile
+		width: 50%
+		height: 215px
+
 .box_two
 	padding: 70px
 	margin-left: 0px
 	margin-bottom: 0px
 
+	@include mobile
+		width: 50%
+		height: 215px
+
 .box_three
 	padding: 70px
 	margin-right: 0px
 	margin-top: 0px
+
+	@include mobile
+		width: 50%
+		height: 215px
 
 .box_four
 	padding: 70px
@@ -53,8 +101,13 @@
 	border-left: 1px solid lightgray
 	border-collapse: collapse
 
+	@include mobile
+		width: 50%
+		height: 215px
+
 i
 	color: maroon
+
 
 
 	
